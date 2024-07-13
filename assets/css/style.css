@@ -73,9 +73,15 @@ nav{
 }
 
 main {
-    background-color: aquamarine;
     /* make main element take up any surplus place down to footer  */
     flex: 1 0 auto;
+    margin-top: 47px;
+}
+/* hero section */
+#hero{
+    height:600px;
+    width: 100%;
+    background:url(../images/hero-image.webp) no-repeat center center/cover;
 }
 
 #social-network{
