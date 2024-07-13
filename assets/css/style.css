@@ -78,9 +78,17 @@ main {
     flex: 1 0 auto;
 }
 
-footer {
-    background-color: rgb(174, 165, 182);
-
+#social-network{
+    padding: 20px 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+#social-network i{
+    padding: 5%;
+    font-size: 160%;
+    color: #3a3a3a;
 }
 /* media query tablet and larger device (768px andup) */
 @media screen and (min-width:768px){
