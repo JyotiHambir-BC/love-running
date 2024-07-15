@@ -148,7 +148,7 @@ hr {
     font-size: 160%;
     color: #3a3a3a;
 }
-/* media query tablet and larger device (768px andup) */
+/* media query tablet and larger device (768px and up) */
 @media screen and (min-width:768px){
     /* header */
     nav{
@@ -183,7 +183,21 @@ hr {
         width: 300px;
         right: 50px;
     }
-    
+    /* Reason Section */
+    #benefits-physical
+    #benefits-mental {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    #benefits-physical > div
+    #benefits-mental > div {
+        width: 75%;
+    }
+    #benefits-mental > div{
+        text-align: end;
+        align-self: flex-end;
+    }
     
 }
 /* larger device (laptops and desktops, 992px and up) */
