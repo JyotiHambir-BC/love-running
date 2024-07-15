@@ -115,9 +115,25 @@ main {
 #benefits p {
     padding: 0 20px;
 }
+
 hr {
     border-top: 1px solid #3a3a3a;
     margin: 5px 0;
+}
+#circle-cover-bg{
+    width: 90vw;
+    height: 90vw;
+    margin-bottom: 20px;
+    background: url('../images/reasons-image.webp') no-repeat top center/cover;
+    /* make square image into the circle */
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+#benefit-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #social-network{
